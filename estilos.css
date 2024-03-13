@@ -73,11 +73,12 @@ footer {
     padding: 20px;
     background-color: #f0f0f0;
     color: #ffff;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .social-icons {
     width: 10px;
-    height: 10px;
     margin: 0 10px;
 }
