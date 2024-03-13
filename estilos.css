@@ -72,5 +72,12 @@ section {
 footer {
     padding: 20px;
     background-color: #f0f0f0;
-    border: 1px solid #ccc;
+    color: #ffff;
+    text-align: center;
+}
+
+.social-icons {
+    width: 10px;
+    height: 10px;
+    margin: 0 10px;
 }
