@@ -14,6 +14,27 @@ header {
     align-items: center;
 }
 
+.header-bg {
+    padding: 20px;
+    background: url('images/header.jpg') no-repeat center center fixed; /* Ruta de tu imagen */
+    background-size: cover;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-bg {
+    padding: 20px;
+    background: url('./images/header.jpg') no-repeat center center fixed; /* Ruta de tu imagen */
+    background-size: cover;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    color: #fff; /* Color del texto en la sección con imagen de fondo */
+}
+
+
 nav {
     display: flex;
     margin-left: auto;
